@@ -1,0 +1,98 @@
+/* .ccc{
+    position: fixed;
+    top:0;
+    z-index: 2;
+    width: 100%;
+} */
+
+.navbar{
+background-color: #255470;
+opacity: 0.8;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    
+}
+.custom-nav a{
+    color: white;
+}
+
+.custom-nav
+{padding-left:5px ;}
+.custom-nav .custom-nav-item:hover{
+    background-color:#FA5F07;
+    color: white;
+    border:2px solid #FA5F07;
+    border-radius: 5px  ;
+    
+}
+/* Video */
+.rev-mar{
+    margin:0px;
+    padding:0px;
+}
+.prnt-vid{
+    position: relative;
+}
+video{
+    width:100%;
+    height:100%;
+}
+.vid-orly{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: #255470;
+    z-index: 1;
+    opacity: 0.8;
+}
+.vid-content{
+    position: absolute;
+    
+    top:35%;
+    left:35%;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+.bottom-banner{
+    color:white;
+    padding: 10px;
+}
+
+
+@media screen and (min-width:0px) and (max-width:700px){
+    .my-content,.txt-banner,.hfhfhfhf{
+        display: none;
+    }
+    .vid-content{
+        top:25%;
+        left:40%;
+    }
+    .custom-nav .custom-nav-item a{
+        padding: 12px 12px;
+        background-color: #255470;
+    }
+    .custom-nav-item:hover{
+        background-color: none;
+        border: none;
+        border-radius: none;
+    }
+}
+
+.backgrnd{
+    width: 100%;
+}
+.social a{
+    color: white;
+    text-decoration: none;
+    /* display: inline-block; */
+    
+}
+.social a:hover{
+   opacity: 0.7;
+    
+}
